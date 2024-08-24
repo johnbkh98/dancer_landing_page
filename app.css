@@ -1,0 +1,44 @@
+#content {
+	text-align: center;
+	padding-top: 25%;
+	padding-bottom: 50%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+	text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+				 0px 8px 13px rgba(0,0,0,0.1),
+				 0px 18px 23px rgba(0,0,0,0.1);
+}
+
+body {
+	background: url(nails.jpg);
+	background-size: cover;
+	background-position: center;
+  background-repeat: no-repeat;
+  /* background-size: auto; */
+	font-family: Lato;
+  height: 100%;
+}
+
+html {
+	height: 100%;
+  /* background: linear-gradient(to bottom right, #ff0000 17%, #ff99cc 100%); */
+  /* background: linear-gradient(to bottom right, #ff0000 11%, #ff99cc 69%); */
+}
+h1, h3 {
+	color: white;
+}
+
+h1 {
+	font-weight: 700;
+	font-size: 5em;
+}
+
+.dash{
+  border-top: 3px solid white;
+  border-bottom: 3px solid black;
+  width: 600px;
+  height: 0px;
+}
